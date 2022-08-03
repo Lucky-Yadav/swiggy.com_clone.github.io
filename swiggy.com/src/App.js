@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import { Food_Main } from "./Components/RestaurantPage/Food_Main";
-// import { Food_Detail } from "./Components/RestaurantPage/Food_Detail";
+import { Food_Detail } from "./Components/RestaurantPage/Food_Detail";
 
 function App() {
  
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Food_Main  />} />
    
-        {/* <Route path="/:food/:id" element={<Food_Detail />} /> */}
+        /* <Route path="/:food/:id" element={<Food_Detail />} /> */
    
      
       </Routes>
