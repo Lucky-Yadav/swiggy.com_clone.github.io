@@ -1,5 +1,7 @@
 
-
+import React from "react";
+import { Food_Main } from "./Components/RestaurantPage/Food_Main";
+import { Food_Detail } from "./Components/RestaurantPage/Food_Detail";
 import './App.css';
 import './styles/Navbar.css'
 import './styles/Search.css'
@@ -28,14 +30,16 @@ import General from './components/help.jsx/General';
 import Partner_Onboarding from "./components/help.jsx/Partner_Onbording";
 // import Login from "./components/lucky/Login";
 
-
 function App() {
+ 
   return (
+  
     <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/navbar" element={<Navbar />}></Route>
         <Route path="/search" element={<Search />}></Route>
+        <Route path="/:food/:id" element={<Food_Detail />} />
         <Route
           path="/user"
           element={
