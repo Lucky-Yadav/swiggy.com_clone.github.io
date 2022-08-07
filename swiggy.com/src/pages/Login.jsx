@@ -14,7 +14,7 @@ import TextField from "@mui/material/TextField";
 // import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import ClearIcon from "@mui/icons-material/Clear";
-import { authentication } from "../components/lucky/Firebase";
+import { authentication } from "../Components/lucky/Firebase";
 import axios, { Axios } from "axios";
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { Navigate } from "react-router-dom";

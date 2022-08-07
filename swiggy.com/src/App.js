@@ -6,38 +6,38 @@ import './App.css';
 import './styles/Navbar.css'
 import './styles/Search.css'
 import { LandingPage } from './pages/LandingPage';
-import  {Navbar}  from './components/Navbar.jsx';
+import { Navbar } from './Components/Navbar.jsx';
 import { Search } from './pages/Search';
 import "./Lucky.css";
 // import Navbar from "./components/lucky/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Signup from "./components/lucky/signup";
-import User from "./components/lucky/user";
+import Signup from "./Components/lucky/signup";
+import User from "./Components/lucky/user";
 // import Help from "./components/help.jsx/help";
-import Private from "./components/lucky/private";
-import Layout from "./components/users/orders";
-import Orders from "./components/users/orders";
-import Super from "./components/users/Super";
-import Favourites from "./components/users/favourites";
-import Payments from "./components/users/payments";
-import Address from "./components/users/address";
-import Settings from "./components/users/Settings";
-import Support from "./components/Support";
-import Previous_orders from "./components/help.jsx/previous-orders";
-import Legal from "./components/help.jsx/Legal";
+import Private from "./Components/lucky/private";
+import Layout from "./Components/users/orders";
+import Orders from "./Components/users/orders";
+import Super from "./Components/users/Super";
+import Favourites from "./Components/users/favourites";
+import Payments from "./Components/users/payments";
+import Address from "./Components/users/address";
+import Settings from "./Components/users/Settings";
+import Support from "./Components/Support";
+import Previous_orders from "./Components/help.jsx/previous-orders";
+import Legal from "./Components/help.jsx/Legal";
 // import { RestaurantView } from './pages/RestaurantView';
-import General from './components/help.jsx/General';
-import Partner_Onboarding from "./components/help.jsx/Partner_Onbording";
+import General from './Components/help.jsx/General';
+import Partner_Onboarding from "./Components/help.jsx/Partner_Onbording";
 // import Login from "./components/lucky/Login";
 
 function App() {
- 
+
   return (
-  
+
     <div className="App">
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
-        <Route path="/navbar" element={<Navbar />}></Route>
+        <Route path="/navbar" element={<Food_Main />}></Route>
         <Route path="/search" element={<Search />}></Route>
         <Route path="/:food/:id" element={<Food_Detail />} />
         <Route

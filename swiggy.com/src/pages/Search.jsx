@@ -5,9 +5,9 @@ import { useState } from 'react';
 // import { useEffect } from 'react';
 import axios from "axios"
 import { useCallback } from 'react';
-import { Spinner } from '@chakra-ui/react'
+// import { Spinner } from '@chakra-ui/react'
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import Navbar from '../Components/Navbar';
 import {Box} from "@mui/material"
 import zIndex from '@mui/material/styles/zIndex';
 // import axios from "a"
